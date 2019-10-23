@@ -14,7 +14,7 @@ export const isZoomGesture = (wheelEvent: WheelEvent) =>
   isMac && wheelEvent.ctrlKey;
 
 export const cancelEvent = (event: any): void => {
-  event.stopPropagation();
+  // event.stopPropagation();
   event.preventDefault();
 };
 
